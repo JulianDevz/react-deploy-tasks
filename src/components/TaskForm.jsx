@@ -26,7 +26,7 @@ function TaskForm() {
     return (
         <div className="max-w-md mx-auto">
             <form onSubmit={HandleSubmit} className="bg-slate-800 p-10 mb-4">
-                <h1 className="text-2xl font-bold text-white mb-3">Crea tu tarea</h1>
+                <h1 className="text-4xl font-bold text-white mb-8 text-center">Crea tu tarea</h1>
                 <input placeholder="Escribe tu tarea"
                     onChange={e => setTittle(e.target.value)}
                     value={tittle} //De esta forma limpiamos los inputs ya que cuando limpiamos el estado tambien se limpiara los cajones
