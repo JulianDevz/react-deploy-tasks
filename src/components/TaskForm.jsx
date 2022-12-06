@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react'
-import {TaskContext} from '../context/TaskContext'
+import { TaskContext } from '../context/TaskContext'
 
 function TaskForm() {
 
@@ -8,7 +8,7 @@ function TaskForm() {
     const [description, setDescription] = useState("")
 
     //Estados y funciones del estado mayor
-    const {createTasks} = useContext(TaskContext)
+    const { createTasks } = useContext(TaskContext)
 
     const HandleSubmit = (e) => {
         e.preventDefault();
